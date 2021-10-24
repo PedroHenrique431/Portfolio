@@ -14,7 +14,9 @@ Site simples feito em react para sesado como um portfolio pessoal.
     🚧   Em construção...  🚧
   
   
-</🚧>
+(https://im.ge/i/o72egy)
+	
+	
 </h1>
 
 
