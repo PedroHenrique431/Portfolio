@@ -6,7 +6,7 @@
 
 # Portfolio
 
-Site simples feito em react para sesado como um portfolio pessoal.
+Site simples feito em react para ser usado como um portfolio pessoal.
 
 <h1 align="center"> 
 	
