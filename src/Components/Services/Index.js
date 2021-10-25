@@ -8,7 +8,7 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesI
 const Services = () => {
     return (
         <ServicesContainer id="services">
-            <ServicesH1> Tecnologias </ServicesH1>
+            <ServicesH1> Tecnologias desse projeto: </ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>

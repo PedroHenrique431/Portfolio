@@ -9,7 +9,7 @@ function Sidebar({isOpen, toggle}) {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='github' onClick={toggle}>GitHub</SidebarLink>
+                    <SidebarLink to='Trabalhos' onClick={toggle}>Meus Trabalhos</SidebarLink>
                 </SidebarMenu>
                 <SidebarMenu>
                     <SidebarLink to='contato' onClick={toggle}>Contato</SidebarLink>

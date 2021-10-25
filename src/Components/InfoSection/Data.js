@@ -6,7 +6,6 @@ export const homeObjectOne = {
     topLine: 'Explore!',
     headline: 'Sinta-se livre para explorar como quiser :D',
     description: 'Este é o portfólio que construí, abaixo você encontrará uma coletânea com meus mais variados projetos pessoais.',
-    buttonLabel: 'Veja mais',
     imgStart: false,
     img: require('../../Images/svg-5.svg').default,
     alt: 'Car',
@@ -22,8 +21,7 @@ export const homeObjectTwo = {
     lightTextDesc: false,
     topLine: 'GitHub!',
     headline: 'Gostou de algum projeto?',
-    description: 'Caso tenha se interessado por um dos projetos, você pode checar os códigos fonte na minha página do GitHub! Clique no botão para ser direcionado até lá.',
-    buttonLabel: 'Ir',
+    description: 'Caso tenha se interessado por um dos projetos, você pode checar os códigos fonte na minha página do GitHub!',
     imgStart: true,
     img: require('../../Images/svg-2.svg').default,
     alt: 'Car',
@@ -40,7 +38,6 @@ export const homeObjectThree = {
     topLine: 'Código aberto!',
     headline: 'Licença MIT',
     description: 'A maioria dos projetos possui código aberto, dessa forma, é permitido o download para personalizar livremente.',
-    buttonLabel: 'Veja mais',
     imgStart: false,
     img: require('../../Images/svg-3.svg').default,
     alt: 'Car',
@@ -48,3 +45,20 @@ export const homeObjectThree = {
     primary: true,
     darkText: false
 }
+
+export const homeObjectFour = {
+    id: 'Trabalhos',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: false,
+    headline: 'Meus Trabalhos',
+    description: '',
+    buttonLabel: false,
+    imgStart: false,
+    img: false,
+    dark: false,
+    primary: true,
+    darkText: false
+}
+
