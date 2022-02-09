@@ -4,13 +4,13 @@ import Video from '../../videos/video.mp4'
 
 function HeroSection() {
     return (
-        <HeroContainer>
+        <HeroContainer id='inicio'>
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>- Portfólio -</HeroH1>
-                <HeroP>Feito por: Pedro Henrique, 2021
+                <HeroP>Feito por: Pedro Henrique, 2022
                 </HeroP>
             </HeroContent>
         </HeroContainer>

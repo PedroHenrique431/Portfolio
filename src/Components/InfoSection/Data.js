@@ -5,7 +5,7 @@ export const homeObjectOne = {
     lightTextDesc: true,
     topLine: 'Explore!',
     headline: 'Sinta-se livre para explorar como quiser :D',
-    description: 'Este é o portfólio que construí, abaixo você encontrará uma coletânea com meus mais variados projetos pessoais.',
+    description: 'Este é o portfólio que construí. Logo abaixo você encontrará uma coletânea com meus mais variados projetos pessoais.',
     imgStart: false,
     img: require('../../Images/svg-5.svg').default,
     alt: 'Car',

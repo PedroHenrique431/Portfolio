@@ -19,7 +19,7 @@ function Footer() {
 
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/"> PedroHbs </SocialLogo>
+            <SocialLogo to="inicio"> PedroHbs </SocialLogo>
             <WebsiteRights>
               {" "}
               PedroHbs © {new Date().getFullYear()} All rights reserved
