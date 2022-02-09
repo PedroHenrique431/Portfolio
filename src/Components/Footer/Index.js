@@ -13,7 +13,7 @@ import {
 
 function Footer() {
   return (
-    <FooterContainer>
+    <FooterContainer id="Contato">
       <FooterWrap>
         
 
