@@ -13,7 +13,7 @@ function HeroSection2() {
                 <HeroH12 >- Meus Trabalhos -</HeroH12>
                 <HeroP2>
                 </HeroP2>
-                <Button>Ver no Github</Button>
+                <Button href='https://github.com/PedroHenrique431'>Ver no Github</Button>
             </HeroContent2>
         </HeroContainer2>
     )

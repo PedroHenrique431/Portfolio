@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../ButtonElements";
 import {
   InfoContainer,
   InfoRow,
@@ -9,7 +8,6 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  BtnWrap,
   TextWrapper,
   ImgWrap,
   Img,
