@@ -20,17 +20,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle> Dúvidas </FooterLinkTitle>
-              <FooterLink to="/home"> Como Funciona? </FooterLink>
-              <FooterLink to="/home"> Contato </FooterLink>
-            </FooterLinkItems>
-
-            
-          </FooterLinksWrapper>
-        </FooterLinksContainer>
+        
 
         <SocialMedia>
           <SocialMediaWrap>
