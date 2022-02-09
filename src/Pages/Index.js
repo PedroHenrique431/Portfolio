@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import Footer from "../Components/Footer/Index";
-import HeroSection2 from "../Components/HeroSection copy/Index";
+import HeroSection2 from "../Components/HeroSection 2/Index";
 import HeroSection from "../Components/HeroSection/Index";
 import { homeObjectOne, homeObjectTwo, homeObjectThree } from "../Components/InfoSection/Data";
 import InfoSection from "../Components/InfoSection/Index";
 import WorkSection from "../Components/WorkSection/Index";
+import SkillsSection from "../Components/SkillsSection/Index";
 import Navbar from "../Components/Navbar/Index";
 import Services from "../Components/Services/Index";
 import Sidebar from "../Components/Sidebar/Index";
 import { workObjectOne, workObjectTwo } from "../Components/WorkSection/Data";
+import { skillObjectOne, skillObjectTwo } from "../Components/SkillsSection/Data";
+import HeroSection3 from "../Components/HeroSection 3/Index";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +30,9 @@ const Home = () => {
       <HeroSection2 />
       <WorkSection {...workObjectOne}/>
       <WorkSection {...workObjectTwo}/>
+      <HeroSection3 />
+      <SkillsSection {...skillObjectOne}/>
+      <SkillsSection {...skillObjectTwo}/>
       <Services />
       <Footer />
     </>
