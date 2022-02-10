@@ -12,6 +12,7 @@ import Sidebar from "../Components/Sidebar/Index";
 import { workObjectOne, workObjectTwo, workObjectThree } from "../Components/WorkSection/Data";
 import { skillObjectOne, skillObjectTwo } from "../Components/SkillsSection/Data";
 import HeroSection3 from "../Components/HeroSection 3/Index";
+import ScrollToTop from "../Components/ScrollToTop/Index";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +36,7 @@ const Home = () => {
       <SkillsSection {...skillObjectOne}/>
       <SkillsSection {...skillObjectTwo}/>
       <Services />
+      <ScrollToTop />
       <Footer />
     </>
   );

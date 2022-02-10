@@ -16,7 +16,7 @@ export const workObjectOne = {
 }
 
 export const workObjectTwo = {
-    id: 'IMC',
+    id: 'Gera_Nomes',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -33,7 +33,7 @@ export const workObjectTwo = {
 }
 
 export const workObjectThree = {
-    id: 'IMC',
+    id: 'ToDo App',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,

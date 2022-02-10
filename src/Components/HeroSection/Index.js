@@ -4,7 +4,7 @@ import Video from '../../videos/video.mp4'
 
 function HeroSection() {
     return (
-        <HeroContainer id='inicio'>
+        <HeroContainer id='home'>
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
