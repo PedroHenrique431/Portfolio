@@ -156,7 +156,7 @@ const Contact = () => {
         </SocialIconLink>
       </SocialIcons>
 
-      <Form action="https://formsubmit.co/pedrohenriquebgs1@gmail.com" method="POST" >
+      <Form action="https://formsubmit.co/pedrohenriquebgs@gmail.com" method="POST" >
       <input type="hidden" name="_captcha" value="false"/>
       <input type="hidden" name="_next" value="https://portfolio-pedrohbs.herokuapp.com/"/>
       <input type="hidden" name="_template" value="table"></input>
