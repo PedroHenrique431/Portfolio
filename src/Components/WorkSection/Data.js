@@ -39,7 +39,7 @@ export const workObjectThree = {
     lightTextDesc: false,
     topLine: 'Projeto #3',
     headline: 'To-do app',
-    description: 'Um gerenciador de tarefas, com ele é possível criar uma lista de tarefas para melhorar sua organização e foco. ',
+    description: 'Um gerenciador de tarefas, com ele é possível criar uma lista de tarefas para melhorar sua organização e foco. ................................................................................ #Python #Qt #Desktop',
     buttonLabel: 'Ir para',
     imgStart: true,
     img: require('../../Images/svg-6.png').default,
