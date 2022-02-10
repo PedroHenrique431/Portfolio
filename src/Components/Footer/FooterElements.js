@@ -119,6 +119,7 @@ font-size: 24px;
 
 &:hover{
     color: #0163bf;
+    transform: scale(1.2);
     transition: 0.3s ease-out; 
 }
 `;
