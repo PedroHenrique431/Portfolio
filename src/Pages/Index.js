@@ -13,6 +13,7 @@ import { workObjectOne, workObjectTwo, workObjectThree } from "../Components/Wor
 import { skillObjectOne, skillObjectTwo } from "../Components/SkillsSection/Data";
 import HeroSection3 from "../Components/HeroSection 3/Index";
 import ScrollToTop from "../Components/ScrollToTop/Index";
+import Contact from "../Components/Contact/Index";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,6 +38,7 @@ const Home = () => {
       <SkillsSection {...skillObjectTwo}/>
       <Services />
       <ScrollToTop />
+      <Contact />
       <Footer />
     </>
   );
