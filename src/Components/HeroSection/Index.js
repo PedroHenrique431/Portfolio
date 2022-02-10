@@ -9,8 +9,8 @@ function HeroSection() {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>- Portfólio -</HeroH1>
-                <HeroP>Feito por: Pedro Henrique, 2022
+                <HeroH1>- Pedro Henrique -</HeroH1>
+                <HeroP>Desenvolvedor @ I.T | React.JS | Flutter
                 </HeroP>
             </HeroContent>
         </HeroContainer>

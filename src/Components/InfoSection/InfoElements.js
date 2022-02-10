@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 
 export const InfoContainer = styled.div`
@@ -92,8 +92,15 @@ max-width: 555px;
 height: 100%;
 `;
 
+const move = keyframes`
+0% {transform:TranslateY(-5px); }
+50% {transform:TranslateY(10px); }
+100% {transform:TranslateY(-5px); }
+`
+
 export const Img = styled.img`
 width: 100%;
 margin: 0 0 10px 0;
 padding-right: 0;
+animation: ${move} 2.5s ease infinite;
 `;
