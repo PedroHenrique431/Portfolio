@@ -12,6 +12,9 @@ function Sidebar({isOpen, toggle}) {
                     <SidebarLink to='Trabalhos' onClick={toggle}>Meus Trabalhos</SidebarLink>
                 </SidebarMenu>
                 <SidebarMenu>
+                    <SidebarLink to='Habilidades' onClick={toggle}>Habilidades</SidebarLink>
+                </SidebarMenu>
+                <SidebarMenu>
                     <SidebarLink to='Contato' onClick={toggle}>Contato</SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>
