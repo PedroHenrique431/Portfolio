@@ -158,6 +158,7 @@ const Contact = () => {
 
       <Form action="https://formsubmit.co/pedrohenriquebgs1@gmail.com" method="POST" >
       <input type="hidden" name="_captcha" value="false"/>
+      <input type="hidden" name="_next" value="https://portfolio-pedrohbs.herokuapp.com/"/>
         <Row>
           <input type="text" name="Nome" placeholder="Seu Nome"></input>
           <input type="email" name="E-mail" placeholder="Seu e-mail" required></input>
