@@ -156,10 +156,11 @@ const Contact = () => {
         </SocialIconLink>
       </SocialIcons>
 
-      <Form>
+      <Form action="https://formsubmit.co/pedrohenriquebgs1@gmail.com" method="POST" >
+      <input type="hidden" name="_captcha" value="false"/>
         <Row>
           <input type="text" name="Nome" placeholder="Seu Nome"></input>
-          <input type="email" name="E-mail" placeholder="Seu e-mail"></input>
+          <input type="email" name="E-mail" placeholder="Seu e-mail" required></input>
         </Row>
         <textarea
           name="Mensagem"
