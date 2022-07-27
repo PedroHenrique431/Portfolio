@@ -9,7 +9,7 @@ import SkillsSection from "../Components/SkillsSection/Index";
 import Navbar from "../Components/Navbar/Index";
 import Services from "../Components/Services/Index";
 import Sidebar from "../Components/Sidebar/Index";
-import { workObjectOne, workObjectTwo } from "../Components/WorkSection/Data";
+import { workObjectFive, workObjectFour, workObjectOne, workObjectThree, workObjectTwo } from "../Components/WorkSection/Data";
 import { skillObjectOne, skillObjectTwo } from "../Components/SkillsSection/Data";
 import HeroSection3 from "../Components/HeroSection 3/Index";
 import ScrollToTop from "../Components/ScrollToTop/Index";
@@ -32,6 +32,9 @@ const Home = () => {
       <HeroSection2 />
       <WorkSection {...workObjectOne}/>
       <WorkSection {...workObjectTwo}/>
+      <WorkSection {...workObjectThree}/>
+      <WorkSection {...workObjectFour}/>
+      <WorkSection {...workObjectFive}/>
       <HeroSection3 />
       <SkillsSection {...skillObjectOne}/>
       <SkillsSection {...skillObjectTwo}/>
