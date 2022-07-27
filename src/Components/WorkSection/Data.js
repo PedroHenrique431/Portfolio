@@ -26,7 +26,7 @@ export const workObjectTwo = {
     buttonLabel: 'Ir para',
     imgStart: false,
     img: require('../../Images/svg-7.jpg').default,
-    alt: 'Projeto1',
+    alt: 'Projeto2',
     dark: false,
     primary: false,
     darkText: false
@@ -43,7 +43,7 @@ export const workObjectThree = {
     buttonLabel: 'Ir para',
     imgStart: true,
     img: require('../../Images/svg-8.png').default,
-    alt: 'Projeto1',
+    alt: 'Projeto3',
     dark: false,
     primary: false,
     darkText: true
@@ -60,7 +60,7 @@ export const workObjectFour = {
     buttonLabel: 'Ir para',
     imgStart: false,
     img: require('../../Images/svg-9.png').default,
-    alt: 'Projeto1',
+    alt: 'Projeto4',
     dark: false,
     primary: false,
     darkText: false
@@ -77,7 +77,7 @@ export const workObjectFive = {
     buttonLabel: 'Ir para',
     imgStart: true,
     img: require('../../Images/svg-10.png').default,
-    alt: 'Projeto1',
+    alt: 'Projeto5',
     dark: false,
     primary: false,
     darkText: true

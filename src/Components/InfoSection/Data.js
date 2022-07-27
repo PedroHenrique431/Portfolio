@@ -8,7 +8,7 @@ export const homeObjectOne = {
     description: 'Este é o portfólio que construí. Logo abaixo você encontrará uma coletânea com meus mais variados projetos pessoais.',
     imgStart: false,
     img: require('../../Images/svg-5.svg').default,
-    alt: 'Car',
+    alt: 'Foguete',
     dark: false,
     primary: true,
     darkText: false
@@ -24,7 +24,7 @@ export const homeObjectTwo = {
     description: 'Caso tenha se interessado por um dos projetos, você pode checar os códigos fonte na minha página do GitHub!',
     imgStart: true,
     img: require('../../Images/svg-2.svg').default,
-    alt: 'Car',
+    alt: 'Telas',
     dark: false,
     primary: false,
     darkText: true
@@ -35,30 +35,15 @@ export const homeObjectThree = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Código aberto!',
-    headline: 'Licença MIT',
-    description: 'A maioria dos projetos possui código aberto, dessa forma, é permitido o download para personalizar livremente.',
+    topLine: 'Olá!',
+    headline: 'Sobre mim',
+    description: 'Meu nome é Pedro Henrique, tenho 21 anos e constantemente estou em contato com o mundo da programação. Iniciei meus estudos durante o ensino médio, no Instituto Federal de São Paulo (IFSP), e nunca parei. Hoje, faço minha graduação na Universidade Federal do ABC (UFABC).',
     imgStart: false,
     img: require('../../Images/svg-3.svg').default,
-    alt: 'Car',
+    alt: 'Folhas',
     dark: false,
     primary: true,
     darkText: false
 }
 
-export const homeObjectFour = {
-    id: 'Trabalhos',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: false,
-    headline: 'Meus Trabalhos',
-    description: '',
-    buttonLabel: false,
-    imgStart: false,
-    img: false,
-    dark: false,
-    primary: true,
-    darkText: false
-}
 

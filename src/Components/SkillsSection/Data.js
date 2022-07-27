@@ -8,7 +8,7 @@ export const skillObjectOne = {
     description: 'React.JS, Dart (Flutter), Python, C# e Java. .............................................................................. Possuo um número maior de projetos concluídos para as áreas de desenvolvimento WEB e Mobile. .............................................................................. Ferramentas: Visual Studio Code, Github',
     imgStart: true,
     img: require('../../Images/performance.svg').default,
-    alt: 'Projeto1',
+    alt: 'Liguagens',
     dark: false,
     primary: false,
     darkText: true
@@ -24,7 +24,7 @@ export const skillObjectTwo = {
     description: 'Português (Nativo); .............................................................................. Inglês (Avançado); .............................................................................. Alemão (Básico); .............................................................................. Espanhol (Básico).',
     imgStart: false,
     img: require('../../Images/Idiomas.svg').default,
-    alt: 'Projeto1',
+    alt: 'Idiomas',
     dark: false,
     primary: false,
     darkText: false
