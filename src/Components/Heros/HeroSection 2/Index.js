@@ -1,6 +1,6 @@
 import React from 'react'
 import {HeroContainer2, HeroBg2, VideoBg2, HeroContent2, HeroH12, HeroP2} from './HeroElements2'
-import Video from '../../videos/video2.mp4'
+import Video from '../../../videos/video2.mp4'
 
 function HeroSection2() {
     return (

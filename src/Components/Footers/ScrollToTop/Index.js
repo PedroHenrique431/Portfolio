@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from "../../Images/up.svg";
+import arrow from "../../../Images/up.svg";
 import styled from "styled-components";
 
 const Up = styled.div`

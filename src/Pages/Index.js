@@ -1,19 +1,31 @@
 import React, { useState } from "react";
-import Footer from "../Components/Footer/Index";
-import HeroSection2 from "../Components/HeroSection 2/Index";
-import HeroSection from "../Components/HeroSection/Index";
-import { homeObjectOne, homeObjectTwo, homeObjectThree } from "../Components/InfoSection/Data";
-import InfoSection from "../Components/InfoSection/Index";
-import WorkSection from "../Components/WorkSection/Index";
-import SkillsSection from "../Components/SkillsSection/Index";
-import Navbar from "../Components/Navbar/Index";
+
+//Nav
+import Navbar from "../Components/Nav/Navbar/Index";
+import Sidebar from "../Components/Nav/Sidebar/Index";
+
+//Heros
+import HeroSection2 from "../Components/Heros/HeroSection 2/Index";
+import HeroSection from "../Components/Heros/HeroSection/Index";
+import HeroSection3 from "../Components/Heros/HeroSection 3/Index";
+
+//Sections
+import InfoSection from "../Components/Sections/InfoSection/Index";
+import WorkSection from "../Components/Sections/WorkSection/Index";
+import SkillsSection from "../Components/Sections/SkillsSection/Index";
+
+//Datas
+import { homeObjectOne, homeObjectTwo, homeObjectThree } from "../Components/Sections/InfoSection/Data";
+import { workObjectFive, workObjectFour, workObjectOne, workObjectThree, workObjectTwo } from "../Components/Sections/WorkSection/Data";
+import { skillObjectOne, skillObjectTwo } from "../Components/Sections/SkillsSection/Data";
+
 import Services from "../Components/Services/Index";
-import Sidebar from "../Components/Sidebar/Index";
-import { workObjectFive, workObjectFour, workObjectOne, workObjectThree, workObjectTwo } from "../Components/WorkSection/Data";
-import { skillObjectOne, skillObjectTwo } from "../Components/SkillsSection/Data";
-import HeroSection3 from "../Components/HeroSection 3/Index";
-import ScrollToTop from "../Components/ScrollToTop/Index";
-import Contact from "../Components/Contact/Index";
+
+//Footers
+import Contact from "../Components/Footers/Contact/Index";
+import ScrollToTop from "../Components/Footers/ScrollToTop/Index";
+import Footer from "../Components/Footers/Footer/Index";
+
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
