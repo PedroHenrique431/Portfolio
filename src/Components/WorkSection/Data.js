@@ -73,7 +73,7 @@ export const workObjectFive = {
     lightTextDesc: false,
     topLine: 'Projeto #5',
     headline: 'Móvel Smart',
-    description: 'Um site criado para atender uma marcenaria, criado para servir como um portfólio na nuvem, além de também ter um sistema de recebimento e envio de e-mails. Facilitando a comunicação com o cliente. ................................................................................ #React.JS #Web #Desktop #GoogleSheets #Site #Emails  https://movelsmart.vercel.app/',
+    description: 'Um site criado para atender uma marcenaria, criado para servir como um portfólio na nuvem, além de também ter um sistema de recebimento e envio de e-mails. Facilitando a comunicação com o cliente. ................................................................................ #React.JS #Web #Desktop #GoogleSheets #Site #Emails   https://movelsmart.vercel.app/',
     buttonLabel: 'Ir para',
     imgStart: true,
     img: require('../../Images/svg-10.png').default,
