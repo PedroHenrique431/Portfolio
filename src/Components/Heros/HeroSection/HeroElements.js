@@ -70,6 +70,17 @@ max-width: 600px;
 }
 `;
 
+export const HeroB = styled.button`
+
+@media screen and (max-width: 768px){
+    font-size: 24px;
+}
+
+@media screen and (max-width: 480px){
+    font-size: 18px;
+}
+`;
+
 export const HeroH1 = styled.h1`
 color: #ffff;
 font-size: 48px;
