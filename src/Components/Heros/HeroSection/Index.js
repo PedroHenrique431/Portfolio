@@ -10,8 +10,7 @@ function HeroSection() {
             </HeroBg>
             <HeroContent>
                 <HeroH1>- Pedro Henrique -</HeroH1>
-                <HeroP>Desenvolvedor @ I.T | React.JS | Flutter
-                </HeroP>
+                <HeroP>Pesquisador | Desenvolvedor @ Economia | UFABC  </HeroP>
             </HeroContent>
         </HeroContainer>
     )
