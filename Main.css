@@ -158,6 +158,7 @@ span{
 .sobre {
   display: flex;
   justify-content: center;
+  background: var(--cor-de-fundo-secundaria);
   align-items: center;
   gap: 2rem;
   z-index: 1;
