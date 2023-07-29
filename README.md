@@ -14,7 +14,7 @@ Site simples feito em react para ser usado como um portfolio pessoal no ano de 2
     🚧   Em construção...  🚧
   
   Antes
-![a](/midia/pictures/antes.png)
+![a](https://user-images.githubusercontent.com/75190759/138576576-d6868a18-7459-4de7-b771-c76d4673209f.gif)
 
   Depois
 ![b](/midia/pictures/depois.png)
