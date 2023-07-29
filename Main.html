@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>PedroHbs - Portfólio</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-celular"></i>
+
+      <nav class="navbar">
+        <a href="#Home" class="active">Home</a>
+        <a href="#Sobre">Sobre</a>
+        <a href="#Exp">Experiências</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Contato">Contato</a>
+      </nav>
+    </header>
+
+    <section class="home" id="Home">
+      <video
+        onloadstart="this.playbackRate = 0.5;"
+        class="videobg"
+        autoplay
+        muted
+        loop
+        id="video-home"
+      >
+        <source src="midia/Videos/stars.mp4" type="video/mp4" />
+      </video>
+
+      <div class="home-content">
+        <h1>Pedro Henrique</h1>
+        <h3>Pesquisador | Desenvolvedor @ <span>UFABC</span></h3>
+
+        <div class="redes">
+          <a href="https://www.linkedin.com/in/pedro-henrique-88a810186/"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://www.instagram.com/pedro.hbs_/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/PedroHenrique431"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://discordapp.com/users/173575546536591361"
+            ><i class="bx bxl-discord-alt"></i
+          ></a>
+        </div>
+
+        <a
+          href="https://drive.google.com/file/d/1Yl5sTkl5KFbjn3MTl3ylt6LjZMy_s_up/view?usp=sharing"
+          class="btn"
+          >Baixar CV</a
+        >
+      </div>
+
+      <!-- <div class="imagem-home">
+        <img src="midia/pictures/a.png" alt="">
+      </div> -->
+    </section>
+
+    <section class="sobre" id="Sobre">
+      <div class="img-sobre">
+        <img src="midia/pictures/sobre.svg" alt="" />
+      </div>
+
+      <div class="conteudo-sobre">
+        <h2 class="principal-sobre">Sobre <span>mim</span></h2>
+        <p>
+          Bacharel, em formação, do curso de Ciências Econômicas pela
+          Universidade Federal do ABC (UFABC - 2022 até o presente) e técnico em
+          Informática pelo Instituto Federal de Educação, Ciência e Tecnologia
+          de São Paulo (IFSP - 2017 a 2020).
+        </p>
+        
+      </div>
+    </section>
+
+    <section class="experiencias" id="Exp">
+      <h2 class="principal-sobre"> Minhas <span>Experiências!</span></h2>
+
+      <div class="exp-container">
+        <div class="exp-box">
+          <i class='bx bx-code-alt' ></i>
+          <h3>Programação</h3>
+          <p>Possuo uma experiência de cerca de 4 anos trabalhando com programação, tanto WEB quanto Mobile.</p>
+          <pre>
+C# 
+Python 
+Java 
+Js
+          </pre>
+          <a class="btn" href="https://www.linkedin.com/in/pedro-henrique-88a810186/">Ver mais</a>
+        </div>
+
+        <div class="exp-box">
+          <i class='bx bxs-data' ></i>
+          <h3>Analise de dados</h3>
+          <p>Análise de dados esteve muito presente na minha vida profissional/acadêmica (Iniciação científica) desde que iniciei meus estudos na graduação.</p>
+          <pre>R 
+Python 
+Power BI
+          </pre>
+          <a class="btn" href="https://www.linkedin.com/in/pedro-henrique-88a810186/">Ver mais</a>
+        </div>
+
+        <div class="exp-box">
+          <i class='bx bx-world' ></i>
+          <h3>Idiomas</h3>
+          <p>O estudo de idiomas é um dos meus hobbies preferidos. Por enquanto, foco minha atenção nessas 4 línguas:</p>
+          <pre>
+Português (Fluente)
+Inglês (C2)
+Alemão (A2)
+Japonês (A1)
+          </pre>
+          <a class="btn" href="https://www.linkedin.com/in/pedro-henrique-88a810186/">Ver mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="Portfolio">
+      <h2 class="principal-sobre"> Últimos <span>Projetos</span> </h2>
+
+      <div class="portfolio-container">
+        
+        <div class="portfolio-box">
+          <img src="/midia/pictures/cdz.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Gran-Ultimate</h4>
+            <p>Um site criado para atender um grupo focado em Cavaleiros do Zodíaco, contando com sistema automático de inscrições através de formulário integrado ao Google Planilhas.</p>
+            <a href="https://gran-ultimate.vercel.app/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="/midia/pictures/movel.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Móvel Smart</h4>
+            <p>Um site criado para atender uma marcenaria, criado para servir como um portfólio na nuvem, além de também ter um sistema de recebimento e envio de e-mails. Facilitando a comunicação com o cliente.</p>
+            <a href="https://movelsmart.vercel.app/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="/midia/pictures/faz.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Vai e Faz</h4>
+            <p>Um site criado para atender uma empresa focada em prestação de assitência técnica de forma remota.</p>
+            <a href="https://vaiefaz.vercel.app/"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="/midia/pictures/imc.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Calculadora IMC</h4>
+            <p>Aplicativo android desenvolvido para realizar o cálculo do IMC do usuário de modo simples, intuitivo e rápido.</p>
+            <a href="https://github.com/PedroHenrique431/Calculadora-IMC"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="/midia/pictures/nomes.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Gerador de Nomes</h4>
+            <p>Um gerador de nomes para android! Feito para ser simples e intuitivo (seja para o uso em RPG's, projetos de escrita, etc). Também é possível marcar os nomes que mais gostar para separá-los em um menu de favoritos!</p>
+            <a href="https://github.com/PedroHenrique431/Name-Generator"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="contato" id="Contato">
+      <h2 class="principal-sobre"> Entre em <span>contato!</span> </h2>
+
+      <form action="https://formsubmit.co/cff3b84938f5937a17cdfeb3be84be5f" method="POST">
+        <input  type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://pedrohenrique431.github.io/Portfolio/">
+        <input type="hidden" name="_template" value="table">
+        <div class="input-box">
+          <input type="text" name="Nome" placeholder="Seu Nome">
+          <input type="email" name="E-mail" placeholder="Seu e-mail" required="">
+        </div>
+        <textarea name="Mensagem" placeholder="Sua mensagem" cols="30" rows="10"></textarea>
+        <div style="margin: 0px auto;"><button class="btn">Enviar</button></div>
+      </form>
+    
+    </section>
+
+    <footer class="footer">
+      <div class="texto-footer">
+        <p>Copyright &copy; 2023 by PedroHbs | Todos os direitos reservados</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#Home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+  </body>
+</html>
