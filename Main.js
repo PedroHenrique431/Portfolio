@@ -28,3 +28,18 @@ window.onscroll = () => {
 
 menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
+
+
+ScrollReveal({ reset: true, distance: '80px', duration: 2000, delay: 200 });
+ScrollReveal().reveal('.home-content, .principal-sobre', { origin: 'top' });
+ScrollReveal().reveal('.exp-container, .portfolio-box, .contato form', { origin: 'bottom' });
+
+
+
+const typed = new Typed('.multiple-text',{
+    strings: ['Pesquisador','Desenvolvedor', 'Aluno'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop:true
+});
