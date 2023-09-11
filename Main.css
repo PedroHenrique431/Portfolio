@@ -184,6 +184,134 @@ span{
   width: 30vw;
 }
 
+.certificados {
+  justify-content: center;
+  background: var(--cor-de-fundo-secundaria);
+  
+  gap: 2rem;
+  z-index: 1;
+}
+
+.certificados h2{
+  margin-bottom: 5rem;
+}
+
+.ctf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.ctf-container .ctf-box{
+  flex: 1 1 30rem;
+  background: var(--cor-de-fundo);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: .2rem solid var(--cor-de-fundo);
+  transition: .5s ease;
+}
+
+.ctf-box-main{
+  flex: 1 1 30rem;
+  background: var(--cor-de-fundo);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: .2rem solid var(--cor-de-fundo);
+  transition: .5s ease;
+}
+
+.ctf-box-main::before, .ctf-box::after{
+  width: inherit;
+  height: inherit;
+  background: inherit;
+  border-radius: inherit;
+}
+
+.ctf-box-main::before{
+ transform: rotate(60deg);
+}
+
+.ctf-box-main::after{
+  transform: rotate(-60deg);
+ }
+
+.ctf-box i {
+  font-size: 3rem;
+  color: var(--cor-de-fundo);
+}
+
+.ctf-box h3{
+  font-size: 2.6rem;
+  color: #fff;
+  transition: .5s ease;
+}
+
+.ctf-box p, pre{
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
+}
+
+.ctf-box-main i {
+  font-size: 3rem;
+  color: var(--cor-de-fundo);
+}
+
+.ctf-box-main h3{
+  font-size: 2.6rem;
+  color: #fff;
+  transition: .5s ease;
+}
+
+.ctf-box-main p, pre{
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
+}
+
+.ctf-box img{
+  width: 17vw;
+  transition: .5s ease;
+}
+
+.ctf-box-main img{
+  width: 20vw;
+  transition: .5s ease;
+}
+
+.main-img{
+  width: 27vw;
+}
+
+.ctf-box:hover h3{
+  color: var(--cor-principal);
+}
+
+.ctf-box:hover img{
+  transform: scale(1.1);
+}
+
+.ctf-container .ctf-box:hover{
+  border-color: var(--cor-principal);
+  transform: scale(1.02);
+}
+
+
+.ctf-box-main:hover h3{
+  color: var(--cor-principal);
+}
+
+.ctf-box-main:hover img{
+  transform: scale(1.1);
+}
+
+.ctf-container .ctf-box-main:hover{
+  border-color: var(--cor-principal);
+  transform: scale(1.02);
+}
+
 
 .experiencias h2{
   margin-bottom: 5rem;
@@ -227,7 +355,7 @@ span{
 }
 
 .portfolio{
-  background-color: var(--cor-de-fundo-secundaria);
+  background-color: var(--cor-de-fundo);
 }
 
 .portfolio h2{
@@ -398,11 +526,19 @@ span{
     padding: 10rem 3% 2rem;
   }
 
+  .certificados{
+    padding-left: 5rem;
+  }
+
   .experiencias{
     padding-left: 5rem;
   }
 
   .exp{
+    padding-bottom: 7rem;
+  }
+
+  .ctf{
     padding-bottom: 7rem;
   }
 
@@ -475,6 +611,10 @@ span{
     margin-bottom: 3rem;
   }
 
+  .ctf h2{
+    margin-bottom: 3rem;
+  }
+
   .experiencias{
     padding-left: 5rem;
   }
@@ -490,6 +630,12 @@ span{
     width: 100vw;
   }
 
+  .ctf-box img{
+    width: 40vw;
+  }
+  .ctf-box-main img{
+    width: 45vw;
+  }
   .portfolio-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 4rem;
@@ -506,6 +652,11 @@ span{
   }
 
   .experiencias{
+    padding-right: 3.5rem;
+    padding-bottom: 7rem; 
+  }
+
+  .certificados{
     padding-right: 3.5rem;
     padding-bottom: 7rem; 
   }
