@@ -17,6 +17,20 @@
   --cor-de-fundo-secundaria: #1d2025;
 }
 
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--cor-principal);
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -184,135 +198,6 @@ span{
   width: 30vw;
 }
 
-.certificados {
-  justify-content: center;
-  background: var(--cor-de-fundo-secundaria);
-  
-  gap: 2rem;
-  z-index: 1;
-}
-
-.certificados h2{
-  margin-bottom: 5rem;
-}
-
-.ctf-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.ctf-container .ctf-box{
-  flex: 1 1 30rem;
-  background: var(--cor-de-fundo);
-  padding: 3rem 2rem 4rem;
-  border-radius: 2rem;
-  text-align: center;
-  border: .2rem solid var(--cor-de-fundo);
-  transition: .5s ease;
-}
-
-.ctf-box-main{
-  flex: 1 1 30rem;
-  background: var(--cor-de-fundo);
-  padding: 3rem 2rem 4rem;
-  border-radius: 2rem;
-  text-align: center;
-  border: .2rem solid var(--cor-de-fundo);
-  transition: .5s ease;
-}
-
-.ctf-box-main::before, .ctf-box::after{
-  width: inherit;
-  height: inherit;
-  background: inherit;
-  border-radius: inherit;
-}
-
-.ctf-box-main::before{
- transform: rotate(60deg);
-}
-
-.ctf-box-main::after{
-  transform: rotate(-60deg);
- }
-
-.ctf-box i {
-  font-size: 3rem;
-  color: var(--cor-de-fundo);
-}
-
-.ctf-box h3{
-  font-size: 2.6rem;
-  color: #fff;
-  transition: .5s ease;
-}
-
-.ctf-box p, pre{
-  font-size: 1.6rem;
-  margin: 1rem 0 3rem;
-}
-
-.ctf-box-main i {
-  font-size: 3rem;
-  color: var(--cor-de-fundo);
-}
-
-.ctf-box-main h3{
-  font-size: 2.6rem;
-  color: #fff;
-  transition: .5s ease;
-}
-
-.ctf-box-main p, pre{
-  font-size: 1.6rem;
-  margin: 1rem 0 3rem;
-}
-
-.ctf-box img{
-  width: 17vw;
-  transition: .5s ease;
-}
-
-.ctf-box-main img{
-  width: 20vw;
-  transition: .5s ease;
-}
-
-.main-img{
-  width: 27vw;
-}
-
-.ctf-box:hover h3{
-  color: var(--cor-principal);
-}
-
-.ctf-box:hover img{
-  transform: scale(1.1);
-}
-
-.ctf-container .ctf-box:hover{
-  border-color: var(--cor-principal);
-  transform: scale(1.02);
-}
-
-
-.ctf-box-main:hover h3{
-  color: var(--cor-principal);
-}
-
-.ctf-box-main:hover img{
-  transform: scale(1.1);
-}
-
-.ctf-container .ctf-box-main:hover{
-  border-color: var(--cor-principal);
-  transform: scale(1.02);
-}
-
-
 .experiencias h2{
   margin-bottom: 5rem;
 }
@@ -353,6 +238,106 @@ span{
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
 }
+
+.certificados {
+  justify-content: center;
+  background: var(--cor-de-fundo-secundaria);
+  gap: 2rem;
+  z-index: 1;
+}
+
+.certificados h2{
+  margin-bottom: 5rem;
+}
+
+.ctf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.ctf-container .ctf-box{
+  list-style: none;
+  flex: 1 1 30rem;
+  background: var(--cor-de-fundo);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: .2rem solid var(--cor-de-fundo);
+  transition: .5s ease;
+  -webkit-user-select: none;
+}
+
+.ctf-box i {
+  font-size: 3rem;
+  color: var(--cor-de-fundo);
+}
+
+.ctf-box h3{
+  font-size: 2.6rem;
+  color: #fff;
+  transition: .5s ease;
+}
+
+.ctf-box p, pre{
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
+}
+
+.ctf-box img{
+  width: 17vw;
+  transition: .5s ease;
+}
+
+.main-img{
+  width: 27vw;
+}
+
+.ctf-box:hover h3{
+  color: var(--cor-principal);
+  transform: scale(1.2);
+}
+
+.ctf-box:hover img{
+  transform: scale(1.2);
+}
+
+.ctf-container .ctf-box:hover{
+  border-color: var(--cor-principal);
+}
+
+.ctf-container .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100%/3) - 12px);
+  gap: 16px;
+  overflow: hidden;
+}
+
+.carousel.no-transition{
+  scroll-behavior: auto;
+}
+
+.ctf-container i{
+  font-size: 50px;
+  position: absolute;
+}
+
+.ctf-container i:first-child{
+  left: 50px;
+}
+
+.ctf-container i:last-child{
+  right: 50px;
+}
+
+.ctf-container i:hover{
+  color: var(--cor-principal);
+  cursor: pointer;
+}
+
 
 .portfolio{
   background-color: var(--cor-de-fundo);
@@ -542,6 +527,14 @@ span{
     padding-bottom: 7rem;
   }
 
+  .ctf-container .carousel{
+    grid-auto-columns: calc((100%/2) - 9px);
+  }
+
+  .ctf-container i{
+    transform: translateY(20rem);
+  }
+
   .portfolio{
     padding-right: 2rem;
     padding-bottom: 7rem;
@@ -633,8 +626,11 @@ span{
   .ctf-box img{
     width: 40vw;
   }
-  .ctf-box-main img{
-    width: 45vw;
+  .ctf-container .carousel{
+    grid-auto-columns: 100%;
+  }
+  .ctf-container i{
+    transform: translateY(30rem);
   }
   .portfolio-container {
     grid-template-columns: repeat(1, 1fr);
