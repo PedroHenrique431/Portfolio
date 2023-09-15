@@ -322,8 +322,10 @@ span{
 }
 
 .ctf-container i{
-  font-size: 50px;
+  font-size: 70px;
   position: absolute;
+  text-shadow: 0 0 1rem white;
+  color: white;
 }
 
 .ctf-container i:first-child{
@@ -335,6 +337,7 @@ span{
 }
 
 .ctf-container i:hover{
+  text-shadow: 0 0 1rem var(--cor-principal);
   color: var(--cor-principal);
   cursor: pointer;
 }
