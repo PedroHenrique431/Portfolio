@@ -33,7 +33,7 @@ ScrollReveal().reveal('.home-content, .principal-sobre', { origin: 'top' });
 ScrollReveal().reveal('.exp-container, .portfolio-box, .contato form', { origin: 'bottom' });
 
 const typed = new Typed('.multiple-text',{
-    strings: ['Pesquisador','Desenvolvedor', 'Aluno'],
+    strings: ['Economia','Análise de dados'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
