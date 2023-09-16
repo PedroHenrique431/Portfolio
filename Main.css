@@ -56,7 +56,7 @@ span{
   left: 0%;
   width: 100%;
   padding: 0.5rem 9% 0.5rem;
-  background: var(--cor-de-fundo);
+  background: rgb(18, 20, 24, 0.3);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,6 +127,28 @@ span{
 
 .home-content p {
   font-size: 1.6rem;
+}
+
+.seta{
+  position: absolute;
+  bottom: 3rem;
+}
+
+.seta i{
+  font-size: 50px;
+  text-shadow: 0 0 0.5rem #fff;
+  animation: go-back 0.7s infinite alternate;
+}
+
+@keyframes go-back {
+  from {
+    opacity: 0.8;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 0.1;
+    transform: translateY(0);
+  }
 }
 
 .redes a {
