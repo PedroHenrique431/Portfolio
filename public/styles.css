@@ -143,10 +143,6 @@ span{
   color: #fff;
 }
 
-.seta:visited .seta:link{
-  color: #fff ;
-}
-
 .seta i{
   font-size: 50px;
   text-shadow: 0 0 0.5rem #fff;
