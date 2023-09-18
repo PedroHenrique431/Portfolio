@@ -139,6 +139,8 @@ span{
 .seta{
   position: absolute;
   bottom: 3rem;
+  cursor: pointer;
+  color: #fff;
 }
 
 .seta i{
