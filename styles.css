@@ -373,9 +373,12 @@ span{
   cursor: pointer;
 }
 
+.artigos{
+  background-color: var(--cor-de-fundo);
+}
 
 .portfolio{
-  background-color: var(--cor-de-fundo);
+  background-color: var(--cor-de-fundo-secundaria);
 }
 
 .portfolio h2{
