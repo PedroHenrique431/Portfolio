@@ -51,10 +51,7 @@ span{
 }
 
 .ctf-box .breve{
-  width: 80px; 
-  color: red; 
-  border: 5px solid red; 
-  border-radius: 10%;
+  margin-top: 100px;
 }
 
 .header {
@@ -378,7 +375,7 @@ span{
 }
 
 .portfolio{
-  background-color: var(--cor-de-fundo-secundaria);
+  background-color: var(--cor-de-fundo);
 }
 
 .portfolio h2{
